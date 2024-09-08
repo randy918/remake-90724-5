@@ -51,7 +51,7 @@ ol {
 .header {
   display: grid;
   grid-template-columns: 1fr; /* Single column */
-  grid-template-rows: 2fr; /* Single row */
+  grid-template-rows: 1fr 1fr; /* Single row */
   position: relative;
   overflow: hidden;
   max-width: 1000px;
@@ -64,6 +64,13 @@ ol {
   height: auto; /* Maintain aspect ratio */
   margin: 0 auto; /* Center the video horizontally */
   display: block; /* Prevent default bottom margin */
+  grid-column: 1/2; /* Starts at column 1, ends at column 3 */
+  grid-row: 1/2;
+}
+
+.header__container {
+  grid-column: 1/3; /* Starts at column 1, ends at column 3 */
+  grid-row: 1/3;
 }
 
 .grid-container {
