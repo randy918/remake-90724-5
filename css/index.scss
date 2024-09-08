@@ -68,6 +68,8 @@ ol {
     grid-template-rows: 2fr; /* Single row */
     position: relative;
     overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .header video {
@@ -77,6 +79,52 @@ ol {
     margin: 0 auto; /* Center the video horizontally */
     display: block; /* Prevent default bottom margin */
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; 
+    
+    
+  }
+  
+  .nav-columnL {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+  
+  .nav-columnR {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+  text-align: right;
+  
+  }
+  
+  .nav-item {
+    /* Style your navigation items here */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-item {
+    /* Style your navigation items here */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+  }
 //>  ████████████████████████████████████  2 HEADER
 
 
