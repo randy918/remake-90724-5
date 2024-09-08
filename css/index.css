@@ -1,0 +1,57 @@
+ul,
+ol {
+  margin-top: 0;
+  /* Remove the top margin */
+}
+
+@font-face {
+  font-family: "Gotham-Ultra-Ital";
+  /* Give the font a name you'll use later */
+  src: url("/fonts/") format("opentype");
+  /* Path to your .otf file */
+  font-weight: normal;
+  /* Optional: Specify font weight */
+  font-style: normal;
+  /* Optional: Specify font style */
+}
+@font-face {
+  font-family: "Gotham-Ultra";
+  /* Give the font a name you'll use later */
+  src: url("/fonts/Gotham-Ultra.otf") format("opentype");
+  /* Path to your .otf file */
+  font-weight: normal;
+  /* Optional: Specify font weight */
+  font-style: normal;
+  /* Optional: Specify font style */
+}
+@font-face {
+  font-family: "Museo-5";
+  /* Give the font a name you'll use later */
+  src: url("/fonts/MuseoSlab-500.otf") format("opentype");
+  /* Path to your .otf file */
+  font-weight: normal;
+  /* Optional: Specify font weight */
+  font-style: normal;
+  /* Optional: Specify font style */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column */
+  grid-template-rows: 1fr; /* Single row */
+  position: relative;
+  overflow: hidden;
+}
+
+.header video {
+  width: 100%;
+  max-width: 1000px; /* Limit the video width to 1000px */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the video horizontally */
+  display: block; /* Prevent default bottom margin */
+}/*# sourceMappingURL=index.css.map */
