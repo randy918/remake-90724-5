@@ -47,15 +47,14 @@ ol {
 
 //>  ████████████████████████████████████  BODY
 
-// .body__container {
-// max-width: 800px;
-//     width: 100%;
-//     height: 100vh;
-//     background-image: url(/img/background-main.jpg);
-//     background-size: cover;
-//     background-position: center;
+.body__container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/background-main.jpg);
+    background-size: cover;
+    background-position: center;
 
-// }
+}
 
 * {
     margin: 0;
@@ -66,7 +65,7 @@ ol {
   .header {
     display: grid;
     grid-template-columns: 1fr; /* Single column */
-    grid-template-rows: 1fr; /* Single row */
+    grid-template-rows: 2fr; /* Single row */
     position: relative;
     overflow: hidden;
 }
